@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+           <script type="text/javascript">
+               function checkCity(){ 
+                   var city=document.getElementById("formGroupInputLarge").value
+               if (city=="Jerusalem") { 
+                    window.location ="jerusalem.html"
+                }
+               else {
+                   window.location="telaviv.html"
+                }
+               }
+        </script>
+		<title>D-cation Mediture</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body style="background: url('images/Camera.jpg') no-repeat center center fixed; background-size: cover;	">
+		<div class="row" style="margin-top:10px; margin-left:10%;">
+            <h1 class="header" id="title"> D-cation Mediture <small>Travel Beyond Your Limits.</small></h1>
+		</div>
+		<div class="row" style="margin-top:150px; margin-left:10%;">
+			<form class="col-md-6 hasform">
+			  <div class="form-group form-fix">
+			    <h2>Enter travel destination</h2>
+			    <label class="sr-only" for="inputHelpBlock">Input with help text</label>
+				<span id="helpBlock" class="help-block help-text">Enter the place you would like to travel </span>
+					<div class="form-group form-group-lg">
+				     	<input class="form-control text-form" type="text" id="formGroupInputLarge" placeholder="Enter City">
+				   	
+				 	</div>
+			  	</div>
+			  	<div class="btn-group">
+                    <script type="text/javascript"> </script>
+				<button type="button" class="btn btn-default btn-lg bt-sub" onclick="checkCity();">Next</button>
+			  	</div>
+			</form>
+		</div>	
+	</body>
+</html>

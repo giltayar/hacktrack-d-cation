@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400|Candal|Signika);
+
+#title{
+	font-family: "Montserrat"
+}
+#flip{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+html { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+label {
+    line-height: 3em;
+    margin-bottom: 0;
+    padding: 0;
+}
+.hasbackground 	 {
+	/*border: 1px solid grey;*/
+    border-radius: 15px;
+    background: rgba(240,248,255,0.75);
+    padding: 1.5em;
+}
+
+.hasform {
+/*	border: 2px solid rgba(149, 144, 218, 0.4);*/
+    background: rgba(145, 33, 177, 0.4);
+    color: rgb(255, 255, 255);
+    font-family: "Signika";
+    padding-left: 10px;
+    padding-top: 10px;
+    -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+}
+#box {
+    padding: 10px, 20px;
+    margin: 10px, 20px;
+    border-color: aqua;
+}
+
+.btn-sub {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: "Signika";
+    color: black;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 60px 10px 60px;
+    text-decoration: none;
+    float: right;
+    margin-bottom: 10px
+}
+
+.btn-sub:hover {
+  background: #fffff1;
+  text-decoration: none;
+}
+
+
+
+.text-form {
+    
+}
+
+.header {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bt-sub {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: none;
+    
+}
+
+#box-left {
+    float: left;
+    text-align: center;
+}
+
+
+
+.form-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(145, 33, 177, 0.4);
+    color: rgb(255, 255, 255);
+    font-family: "Signika";
+    font-size: 34px;
+    padding-left: 10px;
+    -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);   
+    -moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+    font-family: 
+}
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(145, 33, 177, 0.4);
+    color: rgb(255, 255, 255);
+    font-family: "Signika";
+    padding-left: 10px;
+    -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+}
+
+.box-right {
+    float: right;
+    text-align: center;
+    margin-right: 20%
+}
+
+.form-group {
+/*    float: left;*/
+    text-align: center;
+}
+
+.box-left {
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.help-text {
+/*    float: left;*/
+    font-size: 24px;
+    color: black
+}
+
+.form-fix {
+    float: none;
+}
+
+.final-from {
+    float: inherit;
+    align-content: center;
+    left: 30%;
+}
+
+.signup-form {
+/*    height: 400px;*/
+}
+
+.form-input {
+/*    float: right;*/
+    margin: 10px;
+}
+
+.form-name {
+    float: left;
+}
